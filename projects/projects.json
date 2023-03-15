@@ -1,27 +1,6 @@
 {
     "projects": [
         {
-            "title": "Social-Network",
-            "description": "Social network<br> learn react-js",
-            "preview": "",
-            "stack": "JavaScript, HTML, CSS (SCSS), React",
-            "githubLink": "https://github.com/ZelGaDisA/Social-learn"
-        },
-        {
-            "title": "Workers-app",
-            "description": "todo list with database",
-            "preview": "",
-            "stack": "JavaScript, HTML, CSS (SCSS), React",
-            "githubLink": "https://github.com/ZelGaDisA/Workers-app"
-        },
-        {
-            "title": "Simple-Posture",
-            "description": "B2C project from check posture",
-            "preview": "",
-            "stack": "JavaScript, Ionic, Capacitor, CSS (SCSS), React",
-            "githubLink": "https://github.com/ZelGaDisA/Posture"
-        },
-        {
             "title": "HealthUapp",
             "description": "Commercial project",
             "preview": "/projects/hua.jpg",
@@ -41,6 +20,13 @@
             "preview": "/projects/beerometer.jpg",
             "stack": "TS, Ionic, Capacitor, CSS (SCSS), React, IOS(Java), Android(SWIFT)",
             "deployLink": "https://play.google.com/store/apps/details?id=com.beerometer.app"
+        },
+        {
+            "title": "Social-Network",
+            "description": "Social network<br> learn react-js",
+            "preview": "/projects/social.jpg",
+            "stack": "JavaScript, HTML, CSS (SCSS), React",
+            "githubLink": "https://github.com/ZelGaDisA/Social-learn"
         }
     ]
 }
