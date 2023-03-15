@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <title>Portfolio | Stanislau Kostka</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <img class="main__photo" src="assets/photo.jpg" alt="">
+        <div class="info-block">
+            <h1 class="info-block__name">Stanislau<br>kostka</h1>
+            <h2 class="info-block__job">Front-End developer</h2>
+            <div class="info-block__social">
+                <a href="https://github.com/ZelGaDisA" target="_blank"><img class="icon-hover" src="assets/github.svg" alt="GitHub" title="My GitHub"></a>
+                <a href="https://vk.com/z.greivords" target="_blank"><img class="icon-hover" src="assets/vk.svg" alt="VK" title="VK"></a>
+                <a href="https://t.me/Stanislau_Kos" target="_blank"><img class="icon-hover" src="assets/telegram.svg" alt="Telegram" title="Telegram"></a>
+                <a href="https://www.linkedin.com/in/stanislau-kostka-75b99b225/" target="_blank"><img class="icon-hover" src="assets/linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
+            </div>
+        </div>
+        <a href="./assets/cv.pdf" target="_blank" download title="Download CV">
+            <img class="download-cv icon-hover" src="./assets/download.svg">
+        </a>
+    </div>
+
+    <div class="spoiler-list">
+        <div id="control-about" class="control">
+            <span class="control__span">About me</span>
+            <div class="control__spoiler">
+                <div class="control__spoiler--left"></div>
+                <div class="control__spoiler--right"></div>
+            </div>
+        </div>
+        <div class="spoiler-list__info">
+            <p>
+                I started my career at the end of 2021 as a web developer. In the autumn, I did private orders,
+                until in 2022 I got a job at Taqtile as a Front-End developer. I was happy to learn new technologies
+                and improve myself by working in a team on commercial projects. At the end of 2022, I was also
+                developing an application for startups from scratch. I meet any difficulties with a smile and
+                questions in order to solve them quickly and competently. I have a year and a half of development
+                experience in this area. I have experience in developing hybrid applications for Android and IOS.
+                I am constantly learning something new.
+            </p><br>
+            <p>
+                Technology stack: HTML5, CSS3, SCSS, JavaScript, TypeScript, React, Capacitor, Ionic, Material, Bootstrap, Express.
+            </p>
+        </div>
+    </div>
+
+    <div class="spoiler-list">
+        <div id="control-education" class="control">
+            <span class="control__span">Education</span>
+            <div class="control__spoiler">
+                <div class="control__spoiler--left"></div>
+                <div class="control__spoiler--right"></div>
+            </div>
+        </div>
+        <div class="spoiler-list__info">
+            <ol>School</ol>
+                <li>1999-2009</li>
+            <ol>College</ol>
+                <li>2009-2013</li>
+            <ol>It-Shatle</ol>
+                <li><a href="https://drive.google.com/file/d/1r-MC8PigHe56FkEv1Ti8iM4kzN2jOyMV/view?usp=share_link" target="_blank">04.2021-05.2021 HTML-CSS(SASS)</a></li>
+                <li><a href="https://drive.google.com/file/d/1FnXOyCRgMtI0WzbeNsHgTJJgDideIThT/view?usp=share_link" target="_blank">05.2021-09.2021 JavaScript</a></li>
+            <ol>Other courses</ol>
+                <li>RS-School (TypeScript)</li>
+            <ol>English</ol>
+                <li>B1 Level</li>
+        </div>
+    </div>
+
+    <div class="projects">
+        <div class="projects__heading">
+            <h2>Projects</h2>
+        </div>
+        <div class="slider">
+            <div id="slider-wrapper" class="slider__wrapper"></div>
+            <div id="slider-dots" class="slider__dots"></div>
+        </div>
+        <div id="prev" class="slider-navigation prev icon-hover">&lt;</div>
+        <div id="next" class="slider-navigation next icon-hover">&gt;</div>
+    </div>
+
+    <div class="footer">
+        <p>2022 by Stanislau Kostka</p>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
