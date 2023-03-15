@@ -26,7 +26,7 @@
             "description": "Social network<br> learn react-js",
             "preview": "/projects/social.jpg",
             "stack": "JavaScript, HTML, CSS (SCSS), React",
-            "githubLink": "https://github.com/ZelGaDisA/Social-learn"
+            "deployLink": "https://github.com/ZelGaDisA/Social-learn"
         }
     ]
 }

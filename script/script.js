@@ -59,10 +59,6 @@ function createSlide(slideObj) {
                                     <a href="${slideObj.deployLink}" target="_blank">Deploy</a>
                                     <div></div>
                                 </div>
-                                <div class="links__button">
-                                    <a href="${slideObj.githubLink}" target="_blank">Repository</a>
-                                    <div></div>
-                                </div>
                             </div>
 
                         </div>
