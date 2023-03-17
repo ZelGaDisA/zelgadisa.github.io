@@ -27,6 +27,13 @@
             "preview": "/projects/social.jpg",
             "stack": "JavaScript, HTML, CSS (SCSS), React",
             "deployLink": "https://github.com/ZelGaDisA/Social-learn"
+        },
+        {
+            "title": "GameOfThrones",
+            "description": "TestProject",
+            "preview": "",
+            "stack": "",
+            "deployLink": ""
         }
     ]
 }
