@@ -32,7 +32,7 @@
             "title": "GameOfThrones",
             "description": "TestProject",
             "preview": "",
-            "stack": "",
+            "stack": "React, TS, Redux",
             "deployLink": "https://github.com/ZelGaDisA/NewPr-GOT"
         }
     ]
